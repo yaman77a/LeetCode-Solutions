@@ -7,6 +7,6 @@ class Solution:
             if total > target:    
                 r -= 1 # If sum is larger than target, then move right pointer left
             elif total < target:
-                l += 1 # If sum is smaller than targer, then move left pointer right 
+                l += 1 # If sum is smaller than target, then move left pointer right 
             else:
                 return [l + 1, r + 1] # When we found the target sum, return 1-based indices
